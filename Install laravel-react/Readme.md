@@ -48,3 +48,20 @@ if(document.getElementById('root')){
     createRoot(document.getElementById('root')).render(<App />)
 }
 ```
+remove the styles from head tag in 'resources/views/welcome.blade.php' and add this
+to the end of header
+
+```php
+<head>
+    ...
+    @viteReactRefresh
+    @vite(['resources/css/app.css', 'resources/js/app.jsx'])   
+</head>
+```
+replace body tag with the following code 
+
+```html 
+<body>
+	<div id="root"></div>
+</body>
+```
