@@ -12,3 +12,14 @@ first in a parent directory
 ```bash
 composer create-project --prefer-dist laravel/laravel:^9.0 laravel9-react-vite
 ```
+move to the project directory then 
+
+now install NPM Dependencies
+```bash
+npm install
+```
+then install the latest version of react 
+
+```bash
+npm install react@latest react-dom@latest
+```
