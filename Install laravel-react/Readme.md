@@ -10,7 +10,7 @@ this is base on [this](https://techvblogs.com/blog/how-to-install-react-in-larav
 first in a parent directory
 
 ```bash
-composer create-project --prefer-dist laravel/laravel:^9.0 laravel9-react-vite
+composer create-project --prefer-dist laravel/laravel:^9.45 laravel9-react-vite
 ```
 move to the project directory then 
 
@@ -23,10 +23,28 @@ then install the latest version of react
 ```bash
 npm install react@latest react-dom@latest
 ```
-install virejs/vite-react-plugin
+install virejs/plugin-react-refresh
 
 ```bash
 npm i @vitejs/plugin-react --force
 npm i @vitejs/plugin-react-refresh --force
 ```
+remain 'resources/js/app.js' to 'resources/js/app.jsx'
 
+add 'App.jsx' to 'resources/js' then 
+
+```js
+// resources/js/App.jsx
+import React from 'react';
+import { createRoot } from 'react-dom/client'
+
+export default function App(){
+    return(
+        <h1>How To Install React in Laravel 9 with Vite</h1>
+    );
+}
+
+if(document.getElementById('root')){
+    createRoot(document.getElementById('root')).render(<App />)
+}
+```
