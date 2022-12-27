@@ -23,3 +23,10 @@ then install the latest version of react
 ```bash
 npm install react@latest react-dom@latest
 ```
+install virejs/vite-react-plugin
+
+```bash
+npm i @vitejs/plugin-react --force
+npm i @vitejs/plugin-react-refresh --force
+```
+
