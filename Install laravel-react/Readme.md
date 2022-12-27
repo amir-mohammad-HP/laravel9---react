@@ -51,7 +51,7 @@ if(document.getElementById('root')){
 remove the styles from head tag in 'resources/views/welcome.blade.php' and add this
 to the end of header
 
-```php
+```html
 <head>
     ...
     @viteReactRefresh
