@@ -1,6 +1,6 @@
 # barryvdh
 a helpgull debagger bar that will integrate into your application:
-‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍```bash
+‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍```batch
 composer require barryvdh/laravel-debugbar --dev
 ```
 and in the following folder : "config/app.php"
