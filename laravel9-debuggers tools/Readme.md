@@ -6,6 +6,7 @@ a helpgull debagger bar that will integrate into your application:
 composer require barryvdh/laravel-debugbar --dev
 ```
 the command --dev will tell the laravel to use this package only in development mode
+
 and in the following folder : "config/app.php"
 
 ```php
