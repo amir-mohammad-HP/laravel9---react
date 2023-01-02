@@ -13,6 +13,14 @@ set setting of the project like database
 php artisan migrate
 ```
 
+create Auth controllers:
+ ```bash
+ php artisan make:controller Api/AuthController
+ ```
+ this will create controller under Http/Controllers/Api folder
+ 
+ 
+
 # react-part :
 create a react project with vite
 
