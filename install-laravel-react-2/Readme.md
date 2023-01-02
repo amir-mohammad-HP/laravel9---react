@@ -21,3 +21,6 @@ npm create vite
 ```
 follow steps : Project name -> React -> Javascript 
 
+to install axios library for requests in react:
+```bash
+npm install -S axios
