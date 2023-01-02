@@ -19,5 +19,5 @@ create a react project with vite
 ```bash
 npm create vite
 ```
-
+follow steps : Project name -> React -> Javascript 
 
