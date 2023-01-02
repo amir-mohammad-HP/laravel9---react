@@ -1,3 +1,4 @@
+# laravel-part :
 create-project
 
 ```bash
@@ -11,3 +12,12 @@ set setting of the project like database
 ```bash
 php artisan migrate
 ```
+
+# react-part :
+create a react project with vite
+
+```bash
+npm create vite
+```
+
+
