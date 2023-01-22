@@ -65,3 +65,13 @@ public function signup(SignupRequest $request)
 
 
 ```
+
+don't worry about errors will catch up soon 
+
+now needs to create two requests:
+```bash
+php artisan make:request LoginRequest
+
+php artisan make:request SignupRequest
+```
+
