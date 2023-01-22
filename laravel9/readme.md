@@ -10,7 +10,7 @@
 php artisan migrate
 ```
 
-## create controller:
+## create authentication api:
 creata a controller under http/controllers/api folder in apps:
 ```bash
 php artisan make:controller Api/AuthController
