@@ -75,3 +75,10 @@ php artisan make:request LoginRequest
 php artisan make:request SignupRequest
 ```
 
+now move to routes/api.php
+add the on the button of the file:
+```php 
+Route::post('/signup', [AuthController::class, 'signup']);
+Route::post('/login', [AuthController::class, 'login']);
+```
+
