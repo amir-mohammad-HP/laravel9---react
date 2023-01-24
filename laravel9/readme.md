@@ -82,3 +82,12 @@ Route::post('/signup', [AuthController::class, 'signup']);
 Route::post('/login', [AuthController::class, 'login']);
 ```
 
+create controller request and resources for a user model api
+```bash 
+php artisan make:controller Api/UserController --model=User --requests --resource --api
+```
+create resource 
+```bash 
+php artisan make:resource UserResource
+```
+
