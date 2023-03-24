@@ -34,7 +34,7 @@ to install axios library for requests in react:
 npm install -S axios
 ```
 
-to install css library for style html :
+to install bootstrap library for style html :
 ```bash
 npm install bootstrap
 ```
