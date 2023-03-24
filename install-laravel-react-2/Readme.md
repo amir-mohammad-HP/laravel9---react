@@ -32,7 +32,9 @@ follow steps : Project name -> React -> Javascript
 to install axios library for requests in react:
 ```bash
 npm install -S axios
+```
 
 to install css library for style html :
 ```bash
 npm install bootstrap
+```
